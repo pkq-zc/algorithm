@@ -22,6 +22,12 @@ public class BinarySearch {
         }
     }
 
+    /**
+     * 二分查找算法
+     * @param array 待查找数组,该数组必须有序,如果无序将无法使用二分查找算法
+     * @param data 需要查找的数据
+     * @return
+     */
     public static int search(int[] array, int data) {
         int low = 0;
         int high = array.length - 1;
