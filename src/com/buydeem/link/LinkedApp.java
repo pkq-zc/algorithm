@@ -12,9 +12,9 @@ package com.buydeem.link;
  * @Description TODO
  * @createTime 2020年04月02日 21:03:00
  */
-public class LinkedNodeApp {
+public class LinkedApp {
     public static void main(String[] args) {
-        LinkedNode<Integer> linkedNode = new LinkedNode<>();
+        Linked<Integer> linkedNode = new Linked<>();
         linkedNode.print();
         //添加元素
         linkedNode.add(1);

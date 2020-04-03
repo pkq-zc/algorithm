@@ -7,12 +7,24 @@ package com.buydeem.link;
  * @Description 单向链表
  * @createTime 2020年04月02日 21:01:00
  */
-public class LinkedNode<T> {
+public class Linked<T> {
+    /**
+     * 头结点
+     */
     private Node<T> head;
+    /**
+     * 存储链表节点数量
+     */
     private int size;
 
     class Node<T> {
+        /**
+         * 存储数据
+         */
         private T data;
+        /**
+         * 存储下一个节点的引用
+         */
         private Node<T> next;
 
         public Node(T data, Node<T> next) {
@@ -24,7 +36,7 @@ public class LinkedNode<T> {
         }
     }
 
-    public LinkedNode() {
+    public Linked() {
         head = new Node<>(null, null);
         size = 0;
     }
